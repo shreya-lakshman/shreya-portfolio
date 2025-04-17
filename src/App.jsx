@@ -72,6 +72,32 @@ export default function Portfolio() {
       </section>
 
       <section>
+        <h2 className="text-2xl font-semibold mb-4 text-indigo-200">Projects</h2>
+        <div className="grid gap-4">
+          <Card className="bg-gray-800">
+            <CardContent className="p-4">
+              <h3 className="font-bold text-xl text-yellow-300">Brain Infarct Classification Using Deep Learning</h3>
+              <ul className="list-disc list-inside text-gray-300">
+                <li>Developed and applied a deep learning model to categorize brain infarct images based on specific location.</li>
+                <li>Led data acquisition, data cleaning, and model stabilization efforts.</li>
+                <li>Utilized Keras, TensorFlow, and the Intel OpenVINO framework to deploy model.</li>
+              </ul>
+            </CardContent>
+          </Card>
+          <Card className="bg-gray-800">
+            <CardContent className="p-4">
+              <h3 className="font-bold text-xl text-orange-300">Custom Query Language Development</h3>
+              <ul className="list-disc list-inside text-gray-300">
+                <li>Led a two-person team in design and implementation of SQL and NoSQL database systems with custom query language.</li>
+                <li>Developed lexer, parser and CRUD operations as Python functions.</li>
+                <li>Validated systems with Kaggle datasets, attaining 90% memory reduction by efficiently handling large datasets.</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      <section>
         <h2 className="text-2xl font-semibold mb-4 text-indigo-200">Professional Experience</h2>
         <Card className="bg-gray-800">
           <CardContent className="p-4">
@@ -79,6 +105,7 @@ export default function Portfolio() {
             <ul className="list-disc list-inside text-gray-300">
               <li>Built a Slack bot handling 500+ weekly queries with 96% accuracy and 99% success.</li>
               <li>Developed a recommender system increasing CTR by 25% and reducing irrelevant content by 30%.</li>
+              <li>Represented TipTop’s Avatar and Slack bot integration work at NAB Conference, Las Vegas 2025.</li>
             </ul>
           </CardContent>
         </Card>
@@ -99,14 +126,14 @@ export default function Portfolio() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card className="bg-gray-800"><CardContent className="p-4"><strong>Languages:</strong> Python, R, C, PHP, SQL</CardContent></Card>
           <Card className="bg-gray-800"><CardContent className="p-4"><strong>Tools:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Keras, TensorFlow, Spark, Hadoop, Git/GitHub, Unix Shell, Ansible, Docker, Kubernetes, Jenkins, VCenter, AWS, Jupyter notebook, Matlab</CardContent></Card>
-          <Card className="bg-gray-800"><CardContent className="p-4"><strong>Methodologies:</strong> Data Science, Statistical Modeling, Machine Learning, Data Analysis, ETL</CardContent></Card>
+          <Card className="bg-gray-800"><CardContent className="p-4"><strong>Methodologies:</strong> Data Science, Statistical Modeling, Machine Learning, Deep Learning, Data Analysis, ETL</CardContent></Card>
           <Card className="bg-gray-800"><CardContent className="p-4"><strong>AI/ML Techniques & Models:</strong> Generative AI, Large Language Models (LLMs), Prompt Engineering, Classification, Clustering</CardContent></Card>
         </div>
       </section>
 
       <section className="text-center pt-8">
         <a
-          href="/Shreya_Lakshman_Data%20Scientist.pdf"
+          href="/Shreya_Lakshman.pdf"
           download
           className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition"
         >
